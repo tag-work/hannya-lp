@@ -66,6 +66,8 @@
     box-shadow:0 10px 24px -12px rgba(35,58,94,.6); transition:transform .2s, box-shadow .2s;
   }
   .badge:hover{transform:translateY(-2px); box-shadow:0 16px 30px -12px rgba(35,58,94,.6)}
+  .badge.badge-soon{background:#9aa3b2; cursor:default; box-shadow:none; pointer-events:none}
+  .badge.badge-soon:hover{transform:none; box-shadow:none}
   .badge small{display:block; font-size:10px; opacity:.7; letter-spacing:.1em; font-family:'Zen Maru Gothic'}
   .badge .soon{font-size:11px; background:var(--gold-light); color:var(--navy-deep); padding:2px 8px; border-radius:99px; margin-left:4px}
 
@@ -160,8 +162,8 @@
       <h1 class="rv d1">毎日般若心経<br><span class="catch">学んで、となえて、仏に近づく。</span></h1>
       <p class="lead rv d2">やさしく学べて、毎日つづく。</p>
       <div class="badges rv d3">
-        <a class="badge" href="APPSTORE_URL">App Store<small>でダウンロード</small></a>
-        <a class="badge" href="GOOGLEPLAY_URL">Google Play<small>で手に入れよう</small></a>
+        <a class="badge" href="https://apps.apple.com/app/id6775722614">App Store<small>でダウンロード</small></a>
+        <a class="badge badge-soon" aria-disabled="true">Google Play<small>準備中です</small><span class="soon">準備中</span></a>
       </div>
     </div>
     <div class="hero-art rv d2">
@@ -244,8 +246,8 @@
     <h2 class="rv d1">毎日、般若心経をとなえよう。</h2>
     <p class="free rv d2">ずっと無料でお使いいただけます（アプリ内に広告が表示されます）。</p>
     <div class="badges rv d3" style="justify-content:center">
-      <a class="badge" href="APPSTORE_URL">App Store<small>でダウンロード</small></a>
-      <a class="badge" href="GOOGLEPLAY_URL">Google Play<small>で手に入れよう</small></a>
+      <a class="badge" href="https://apps.apple.com/app/id6775722614">App Store<small>でダウンロード</small></a>
+      <a class="badge badge-soon" aria-disabled="true">Google Play<small>準備中です</small><span class="soon">準備中</span></a>
     </div>
   </div>
 </section>
